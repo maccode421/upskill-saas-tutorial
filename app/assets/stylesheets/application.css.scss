@@ -23,6 +23,7 @@
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
+
 // Background Gradient
 .navbar, .home-callout {
   // Gradient provided by @_igosh at uiGradients.com
@@ -30,10 +31,17 @@ h1, h2, h3 {
   background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 // Nav Styles
 .navbar {
   border: none;
 }
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -42,6 +50,7 @@ h1, h2, h3 {
     opacity: 0.75;
   }
 }
+
 // Home Page Styles
 .home-callout {
   color: white;
